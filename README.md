@@ -9,6 +9,7 @@ A unified web interface combining all MOSS-TTS models into a single application 
 - **MOSS-TTSD** - Multi-speaker dialogue generation
 - **MOSS-VoiceGenerator** - Design voices from text descriptions
 - **MOSS-SoundEffect** - Generate environmental sounds and effects
+- **MOSS-TTS-Realtime** - Low-latency streaming TTS for voice agents
 
 **Interface**
 - Single unified interface with tab-based navigation
@@ -58,11 +59,11 @@ Generate speech with optional voice cloning from reference audio.
 
 Create multi-speaker conversations with distinct voices.
 
-1. Write your dialogue with speaker labels:
+1. Write your dialogue with speaker tags:
 ```
-Speaker1: Hello there!
-Speaker2: Hi! How are you?
-Speaker1: Great weather today.
+[S1] Hello there!
+[S2] Hi! How are you?
+[S1] Great weather today.
 ```
 2. Set the number of speakers (1-5)
 3. Click "Generate Dialogue"
