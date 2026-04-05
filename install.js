@@ -42,6 +42,12 @@ module.exports = {
       params: {
         html: "✅ Installed! Models download on-demand (~10GB each). ~10GB VRAM or CPU."
       }
+    },
+    {
+      method: "script.start",
+      params: {
+        uri: "start.js"
+      }
     }
   ]
 }
